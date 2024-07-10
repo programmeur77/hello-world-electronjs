@@ -1,0 +1,9 @@
+# Mac config folder
+.DS_Store
+
+# Prettier config file
+.prettierrc
+
+# NPM files and folders
+package-lock.json
+node_modules
