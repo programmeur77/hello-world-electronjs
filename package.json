@@ -5,7 +5,8 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "watch": "nodemon --exec electron ."
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,10 @@
   },
   "homepage": "https://github.com/programmeur77/hello-world-electronjs#readme",
   "devDependencies": {
-    "electron": "^31.2.0"
+    "electron": "^31.2.0",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
   }
 }
