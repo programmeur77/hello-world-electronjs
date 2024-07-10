@@ -1,0 +1,28 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "ElctronJS first program",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmeur77/hello-world-electronjs.git"
+  },
+  "keywords": [
+    "electronJS",
+    "JS",
+    "HTML",
+    "CSS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programmeur77/hello-world-electronjs/issues"
+  },
+  "homepage": "https://github.com/programmeur77/hello-world-electronjs#readme",
+  "devDependencies": {
+    "electron": "^31.2.0"
+  }
+}
