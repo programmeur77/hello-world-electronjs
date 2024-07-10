@@ -13,6 +13,10 @@ const createWindow = () => {
 
   mainWindow.loadFile('index.html');
 
+  // Open DevTools
+  mainWindow.webContents.openDevTools();
+
+  // Emitted when the window is closed.
   mainWindow.on('closed', () => {
     mainWindow = null;
   });
